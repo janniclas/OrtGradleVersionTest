@@ -32,10 +32,9 @@ repositories {
         }
     }
 }
-val ortVersion = "10.0.0"
+val ortVersion = "11.0.0"
 
 dependencies {
-//    implementation(libs.guava)
     implementation("org.apache.logging.log4j:log4j-api-kotlin:1.3.0")
     implementation("org.apache.logging.log4j:log4j-to-slf4j:2.21.1")
     implementation("ch.qos.logback:logback-classic:1.4.11")
